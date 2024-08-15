@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+.cover-page {
+    background: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url('../img/newcityhall.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+
+}
+.login-form {
+    background-color: #fff;
+    padding: 50px;
+    color: black;
+    border-radius: 15px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-header {
+    font-size: 28px;
+    font-weight: 600;
+
+}
+.form-header img {
+    width: 100px;
+    display: block;
+    margin: 0 auto 25px;
+}
+.bold-text {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.link-text {
+    display: block;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 70px;
+}
+#email {
+    border-radius: 10px;
+}
+.footertext {
+    font-size: 15px;
+    color: #817C7C;
+    font-weight: 500;
+    border-top: 1px solid #817C7C;
+    padding-top: 15px;
+}
+.para {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.input-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.input-group label {
+    margin-top: 40px;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.input-group input {
+    border: 1px solid black; 
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+.input-group input {
+    border-radius: 10px;
+}
+.btn-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.Btn2 {
+    background-color: #053774 !important;
+    border-color: #053774 !important;
+    font-weight: 500;
+    border-radius: 15px;
+    
+}
+.Btn1{
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+
+@media (max-width: 768px) {
+    .login-form {
+        padding: 40px;
+        max-width: 90%;
+    }
+}

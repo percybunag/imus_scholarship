@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cover-page {
+    height: 100vh;
+    background: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url('../img/newcityhall.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 60px;
+    color: black;
+    border-radius: 15px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.form-header img {
+    width: 100px;
+    display: block;
+    margin: 0 auto 25px;
+}
+
+.otp-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.otp-input {
+    width: 45px;
+    height: 45px;
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.otp-input:focus {
+    border-color: #053774;
+    box-shadow: 0 0 5px rgba(5, 55, 116, 0.3);
+}
+
+.btn-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-custom {
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    width: 180px;
+}
+
+.btn-submit {
+    background-color: #053774;
+}
+
+.btn-cancel {
+    background-color: grey;
+}
+
+.resend-container {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+}
+
+.resend-link {
+    color: #053774;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 5px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.resend-link:hover {
+    color: #ff7700;
+}
+
+.timer {
+    color: #053774;
+    font-weight: bold;
+    display: none;
+    margin-left: 10px;
+}
+
+.footertext {
+    font-size: 15px;
+    color: #817C7C;
+    font-weight: 500;
+    border-top: 1px solid #817C7C;
+    padding-top: 15px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .login-form {
+        padding: 40px;
+        max-width: 90%;
+    }
+
+    .otp-input {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        margin: 0 3px;
+    }
+}

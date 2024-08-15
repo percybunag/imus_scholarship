@@ -1,0 +1,75 @@
+@font-face{
+    font-family: Montserrat;
+    src:url(/assets/fonts/montserrat.ttf);
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+.navbar {
+    padding: 0.5rem 1rem;
+}
+.navbar-nav{
+    margin-right:0;
+    margin-left: auto;
+}
+.btn-login {
+    margin-left: 15px; /* Adjust as needed */
+}
+.navbar-brand{
+    margin-right: auto;
+}
+.nav-link{
+    font-weight: 600;
+    color: #053774;
+}
+.navbar-brand img{
+    width: 70%;
+}
+
+.btn-login {
+    color: #fff; /* Text color */
+    background-color: #053774; /* Background color */
+    border: none; /* Remove default border */
+    padding: 8px 20px; /* Button padding */
+    border-radius: 15px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    margin-left: 15px; /* Adjust as needed */
+    font-weight: 600;
+}
+
+.btn-login:hover {
+    background-color: #1d70d6; /* reverse the color*/
+    color:#ffff;
+}
+
+/* Center navbar items when collapsed */
+.navbar-collapse {
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-item {
+    text-align: center;
+    width: 100%;
+}
+#cover-page{
+    background: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url('/img') no-repeat center center fixed;
+    min-height: 90vh;
+}
+.text-header{
+    font-weight: 700;
+    color: white;
+    font-size:40px
+}
+.secondary-text{
+    color: white;
+}
+.btn-getstarted{
+    background-color: #053774;
+    color: white;
+    font-weight: 600;
+    flex-direction: column;
+}

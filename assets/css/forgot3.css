@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+.cover-page {
+    height: 100vh;
+    background: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url('../img/newcityhall.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.changeform {
+    background-color: #fff;
+    padding: 60px;
+    color: black;
+    border-radius: 15px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-header {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.form-header img {
+    width: 100px;
+    display: block;
+    margin: 0 auto 25px;
+}
+
+/* Removed unused .bold-text class */
+
+.link-text {
+    display: block;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 70px;
+}
+
+#password,
+#confirm_password {
+    border-radius: 10px;
+}
+
+.footertext {
+    font-size: 13px;
+    color: #817C7C;
+    font-weight: 500;
+    border-top: 1px solid #817C7C;
+    padding-top: 15px;
+}
+
+.form-label {
+    font-size: 13px;
+    font-weight: 600; /* Fixed font-weight unit */
+}
+
+.input-group label {
+    margin-top: 20px;
+    text-align: left;
+    display: block;
+    width: 100%;
+}
+
+.input-group {
+    position: relative;
+    margin-top: 20px;
+}
+
+.input-group input {
+    border: 1px solid black; 
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%; 
+    box-sizing: border-box; 
+    padding-right: 40px; /* Add padding to make room for the icon */
+}
+
+.field-icon {
+    right: 10px; /* Position the icon 10px from the right */
+    top: 75%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #000;
+    font-size: 18px;
+    z-index: 1; /* Ensure the icon is on top */
+}
+
+.btn-container {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.Btn2 {
+    background-color: #053774 !important;
+    border-color: #053774 !important;
+    font-weight: 500;
+    border-radius: 15px;
+    
+}
+
+
+/* Media query targeting changeform instead of login-form */
+@media (max-width: 768px) {
+    .changeform {
+        padding: 40px;
+        max-width: 90%;
+    }
+}
+
+.error {
+    color: red;
+}

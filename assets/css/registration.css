@@ -1,0 +1,170 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+}
+.cover-page {
+    min-height: 100vh;
+    background: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url('../img/newcityhall.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin-top: 50px;
+}
+
+.form-container {
+    max-width: 700px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo-header {
+    margin-top:50px;
+}
+
+.logo-header img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.logo-header h4 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 700;
+    color: #333;
+}
+.card-body {
+    padding: 2rem;
+}
+.form-label {
+    display:block;
+    text-align: start;
+    font-size:12px;
+}
+.form-control {
+    height: 50px; /* Increase height for better usability */
+    font-size: 14px; /* Adjust font size for readability */
+}
+.step {
+    display: none;
+}
+
+.step.active {
+    display: block;
+}
+.header-reg {
+    font-weight: 600;
+    font-size: 25px;
+}
+.step-text {
+    font-weight: 600;
+    color: #545b62;
+}
+h4 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+.btn-primary {
+    background-color: #053774;
+    border-color: #053774;
+    border-radius: 15px;
+    font-weight: 600;
+    padding: 5px 15px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004a9d;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 15px;
+    font-weight: 600;
+    padding: 5px 15px;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.alert {
+    display: none;
+    margin-top: 0.5rem;
+}
+.otp-input {
+    width: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 2px;
+}
+#step-2 {
+    max-width: 600px;
+}
+.link-text{
+    font-size:12px;
+    font-weight: 600;
+    color:#545b62;
+}
+.footertext{
+    font-size:12px;
+    font-weight: 600;
+    color:#545b62;
+}
+.otp-statement {
+    font-size: 15px;
+    margin-bottom: 0.1rem; 
+}
+
+.otp-container {
+    margin-top: 1rem; 
+}
+
+.btn-link {
+    font-size: 15px;
+    padding: 0;
+    text-decoration: none; 
+    font-weight: 600;
+}
+
+.position-relative .fa-eye {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #6c757d;
+}
+
+.position-relative .fa-eye-slash {
+    color: #6c757d;
+}
