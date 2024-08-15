@@ -1,5 +1,5 @@
 <?php
-include 'db_conn.php'; // This should define the $pdo variable
+include '../assets/scripts/connection/db_conn.php'; 
 
 if (isset($_GET['token'])) {
     $token = $_GET['token'];

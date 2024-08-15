@@ -11,7 +11,7 @@ if (isset($_SESSION['user'])) {
     }
     exit();
 }
-include '../assets/scripts/db_conn.php';
+include '../assets/scripts/connection/db_conn.php';
 require '../lib/vendor/autoload.php';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
